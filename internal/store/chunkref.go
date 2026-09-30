@@ -1,0 +1,10 @@
+// Copyright (c) 2026 Raghav Kaushik All rights reserved.
+// Use of this source code is governed by a BSD-style
+// license that can be found in the LICENSE file.
+
+package store
+
+type ChunkRef struct {
+	Hash   [32]byte
+	Length uint32
+}
